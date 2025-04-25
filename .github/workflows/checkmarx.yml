@@ -14,7 +14,7 @@ jobs:
       - name: Checkmarx One CLI Action
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
-          project_name: ME_NodeGoat
+          project_name: ME_NodeGoat_Github
           cx_tenant: ama-partners
           base_uri: https://ind.iam.checkmarx.net/ 
           cx_client_id: Test_ME
